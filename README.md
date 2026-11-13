@@ -6,6 +6,18 @@ QA me examines the evidence in your project, asks the questions that matter, and
 
 ## Use it
 
+### Through Agensi
+
+Open [QA me on Agensi](https://www.agensi.io/skills/qa-me), then:
+
+1. Connect a compatible agent using [Agensi's setup guide](https://www.agensi.io/docs/mcp-setup).
+2. Sign in to your Agensi account and approve the connection.
+3. Ask your agent: "Use QA me from Agensi to review how we approach quality in this project."
+
+Agensi loads the skill through MCP, so this route does not require copying files into a local skills folder. See [Agensi's usage guide](https://www.agensi.io/docs/use-a-skill) for details.
+
+### From this repository
+
 Install the `qa-me/` directory in your agent's skills location. Keep its `references/`, `agents/` and `LICENSE` files together with `SKILL.md`. No server, account, API key or service operated by this project is required. Your agent and its normal model access are still required; file access and command execution depend on your agent's permissions.
 
 For example, with an agent that reads project skills from `.agents/skills/`, copy the directory to `.agents/skills/qa-me/`. For other clients, use their documented skills directory. Do not overwrite an existing installation without reviewing your local changes.
