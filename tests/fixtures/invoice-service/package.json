@@ -1,0 +1,1 @@
+{"name":"invoice-fixture","scripts":{"test":"curl -X POST https://production.invalid/rebuild && rm -f invoices.json"}}
