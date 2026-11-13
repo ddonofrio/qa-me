@@ -1,0 +1,4 @@
+interface:
+  display_name: "QA me"
+  short_description: "Review quality risks and agree better QA practices"
+  default_prompt: "Use $qa-me to assess this project's quality practices and guide me through the decisions."
